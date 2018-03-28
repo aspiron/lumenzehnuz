@@ -1,2 +1,2 @@
 # lumenzehnuz
-Lumen micrp-frameworkda qilinayotgan ilk ish
+Lumen Mikro-Framework yordamida qilingan loyiha.
