@@ -17,16 +17,6 @@ CREATE TABLE `hikoyas` (
 INSERT INTO `hikoyas` (`id`, `hsh_id`, `title`, `text`, `author`, `votes`, `date`, `confirmed`) VALUES
 (1,	1,	'sadfdg',	'asdasdasdas',	'asd',	1,	'2018-03-28 14:42:21',	'false');
 
-DROP TABLE IF EXISTS `migrations`;
-CREATE TABLE `migrations` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `batch` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(2,	'2018_03_27_192240_create_hikoyalar_table',	1);
 
 DROP TABLE IF EXISTS `sharti`;
 CREATE TABLE `sharti` (
