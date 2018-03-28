@@ -18,8 +18,8 @@ INSERT INTO `hikoyas` (`id`, `hsh_id`, `title`, `text`, `author`, `votes`, `date
 (1,	1,	'sadfdg',	'asdasdasdas',	'asd',	1,	'2018-03-28 14:42:21',	'false');
 
 
-DROP TABLE IF EXISTS `sharti`;
-CREATE TABLE `sharti` (
+DROP TABLE IF EXISTS `sharts`;
+CREATE TABLE `sharts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `task` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
