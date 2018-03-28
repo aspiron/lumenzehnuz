@@ -1,6 +1,6 @@
 # lumenzehnuz
 Lumen Mikro-Framework yordamida qilingan loyiha.
-
+```
 DROP TABLE IF EXISTS `hikoyas`;
 CREATE TABLE `hikoyas` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -38,3 +38,4 @@ CREATE TABLE `sharti` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+```
